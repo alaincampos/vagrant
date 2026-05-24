@@ -5,7 +5,7 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 
 dnf install -y dnf-utils zip unzip
 
-dnf install -y oracle-epel-release-el8
+dnf install -y oracle-epel-release-el9
 dnf install -y sshpass
 
 dnf install -y oracle-ai-database-preinstall-26ai
